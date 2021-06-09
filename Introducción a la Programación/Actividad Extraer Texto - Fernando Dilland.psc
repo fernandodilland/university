@@ -1,24 +1,24 @@
 Proceso actividadExtraerTexto
-	// C骴igo hecho por: Fernando Dilland (), Grupo 14.
+	// C贸digo hecho por: Fernando Dilland (), Grupo 14.
 	// Escribir un programa que permita extraer de un texto una parte del mismo.
 	// El programa debe solicitar el texto a procesar. Para especificar que
-	// se va a extraer, se debe solicitar la posici髇 de inicio de
-	// la extracci髇 y cu醤tos car醕teres desea extraer.
+	// se va a extraer, se debe solicitar la posici贸n de inicio de
+	// la extracci贸n y cu谩ntos car谩cteres desea extraer.
 	
 	Escribir "Ingrese el texto al cual le vamos a extraer: "
 	Leer textoParaExtraer
 	
-	Escribir "Ingrese la posici髇 inicial de la extraci髇 del texto (n鷐ero): "
+	Escribir "Ingrese la posici贸n inicial de la extraci贸n del texto (n煤mero): "
 	Leer posicionInicial
 	
-	Escribir "Ingrese la cantidad de car醕teres a extraer: "
+	Escribir "Ingrese la cantidad de car谩cteres a extraer: "
 	Leer cantidadCaracteres
 	
-	// Corregimos la posici髇 inicial para que empieze de la letra indicada.
+	// Corregimos la posici贸n inicial para que empieze de la letra indicada.
 	correccionPosicionInicial <- posicionInicial-1
 	
 	textoExtraido <- subcadena(textoParaExtraer,correccionPosicionInicial,cantidadCaracteres)
 	
-	Escribir "El texto extra韉o es: ", textoExtraido
+	Escribir "El texto extra铆do es: ", textoExtraido
 	
 FinProceso
