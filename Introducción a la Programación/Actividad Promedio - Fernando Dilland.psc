@@ -1,5 +1,5 @@
 Proceso ActividadPromedio
-	// Actividad por: Fernando Dilland () Grupo #14
+	// Actividad por: Fernando Dilland
 	
 	Escribir "Ingresar Calificación #1:"
 	Leer calificacion1
