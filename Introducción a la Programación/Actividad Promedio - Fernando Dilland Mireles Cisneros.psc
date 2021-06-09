@@ -1,13 +1,13 @@
 Proceso ActividadPromedio
 	// Actividad por: Fernando Dilland Mireles Cisneros (1837532) Grupo #14
 	
-	Escribir "Ingresar Calificación #1:"
+	Escribir "Ingresar CalificaciÃ³n #1:"
 	Leer calificacion1
 	
-	Escribir "Ingresar calificación #2"
+	Escribir "Ingresar calificaciÃ³n #2"
 	Leer calificacion2
 	
-	Escribir "Ingersar calificación #3"
+	Escribir "Ingersar calificaciÃ³n #3"
 	Leer calificacion3
 	
 	promedio = ((calificacion1+calificacion2+calificacion3)/3)
