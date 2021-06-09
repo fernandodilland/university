@@ -1,8 +1,8 @@
 Proceso actividadConvertirGradosRadianes
-	// Código hecho por: Fernando Dilland Mireles Cisneros (1837532), Grupo 14.
-	// Desarollar el código PSeInt que permita comvertir un valor
+	// CÃ³digo hecho por: Fernando Dilland Mireles Cisneros.
+	// Desarollar el cÃ³digo PSeInt que permita comvertir un valor
 	// en grados a su equivalente en radianes.
-	// Fórumula: Radianes = Grados*PI/180.
+	// FÃ³rumula: Radianes = Grados*PI/180.
 	
 	Escribir "Ingrese la cantidad de grados: "
 	Leer cantidadGrados
