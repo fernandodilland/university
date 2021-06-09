@@ -1,6 +1,6 @@
 """
-Materia: Programación avanzada (Grupo 21), Profesor: Dr. José Felipe Ramirez Ramirez.
-Programa realizado por: Fernando Dilland Mireles Cisneros, 1837532.
+Materia: Programación avanzada, Profesor: Dr. José Felipe Ramirez Ramirez.
+Programa realizado por: Fernando Dilland Mireles Cisneros.
 """
 
 # Producto Integrador de Aprendizaje
@@ -39,7 +39,6 @@ enterContinuar="Pulse enter para continuar..."
 # ---------- Procedimientos ----------
 
 # Función [1] Cargar información de CSV
-# Parte trabajada por: Fernando Mireles, Alejandro López y Carlos Martínez.
 def funcionCargarInformacionCSV():
 
     # Para respaldo y carga de información, si hay archivo de datos
@@ -71,7 +70,6 @@ def funcionCargarInformacionCSV():
         f.close()
 
 # Función que recibe correo y busca
-# Parte realizada por: Joselyn Guerra, Samantha Medina y Fernando Mireles.
 def busquedaCorreo(correoBusqueda):
     Contador=1
     Encontrado=False
@@ -90,7 +88,6 @@ def busquedaCorreo(correoBusqueda):
 
 
 # Prodecimiento serialización
-# Parte realizada por: Joselyn Guerra, Samantha Medina y Fernando Mireles.
 def sistemaSerializar():
     print("Ha elegido: \"Serializar información a JSON\"")
     json_data = json.dumps(listaObjetos, default=lambda o: o.__dict__, indent=4)
@@ -99,7 +96,6 @@ def sistemaSerializar():
     print("La lista serializada es: ",json_data)
 
 # Procedimiento Actualizar CSV
-# Parte realizada por Fernando Mireles.
 def actualizarCSV():
     print("Ha elegido: \"Actualizar información de CSV\"")
     if os.path.exists(archivo):
@@ -148,7 +144,6 @@ def actualizarCSV():
         f.close() # Se abrió 2 veces por experimentación, no nos funcionó el programa sin este mecanismo.
 
 # Procedimiento de eliminación
-# Parte hecha por Alejandro López y Fernando Mireles.
 def eliminacionPersona():
     LimpiarPantalla()
     print("Ha elegido: \"Eliminar participantes\"")
@@ -193,7 +188,6 @@ def eliminacionPersona():
     print("\n--- Se ha eliminado con éxito ---\n")
 
 # Procedimiento Modificación de Elementos de Fila
-# Parte hecha por Fernando Mireles y Alejandro Lopez.
 def modificarParticipantes():
     LimpiarPantalla()
     print("Ha elegido: \"Modificar participantes\"")
@@ -278,7 +272,6 @@ def modificarParticipantes():
                 input(enterContinuar)
 
 # Procedimiento de nuevo registro
-# Parte realizada por Joselyn Guerra, Samantha Medina, Fernando Mireles, Alejandro López y Carlos Martínez.
 def registroParticipante():
     LimpiarPantalla()
     print("Ha elegido: \"Registrar participantes\"")
@@ -340,7 +333,6 @@ def registroParticipante():
                 validacionExistenciaCorreo=True
 
 # Procedimiento menú
-# Parte hecha por Fernando Mireles y Alejandro López.
 def menuPrincipal():
     Linea1 = "[1] Cargar información de CSV\n"
     Linea2 = "[2] Registrar participantes\n"
@@ -431,7 +423,6 @@ archivo_respaldo = ruta_archivo+"\\registro.bak"
 archivo = ruta_archivo + "\\registro.csv"
 
 # Procedimiento main
-# Parte hecha por Alejandro López.
 def main():
     menuPrincipal()
 
