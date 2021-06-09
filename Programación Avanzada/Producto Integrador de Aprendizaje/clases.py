@@ -1,12 +1,11 @@
 """
-Materia: Programación avanzada (Grupo 21), Profesor: Dr. José Felipe Ramirez Ramirez.
-Programa realizado por: Fernando Dilland, .
+Materia: Programación avanzada, Profesor: Dr. José Felipe Ramirez Ramirez.
+Programa realizado por: Fernando Dilland.
 """
 
 # "clases.py" Programa secundario del proyecto
 
 # Clase
-# Parte realizada por Joselyn Guerra, Samantha Medina, Fernando Dilland, Alejandro López y Carlos Martínez.
 class Participante():
     # Propiedades
     correo = ""
