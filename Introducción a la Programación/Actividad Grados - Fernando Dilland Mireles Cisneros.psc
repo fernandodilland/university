@@ -1,11 +1,11 @@
 Proceso ActividadGrados
-	// Actividad por: Fernando Dilland Mireles Cisneros (1837532) Grupo #14
+	// Actividad por: Fernando Dilland Mireles Cisneros
 	
 	Escribir "Ingresar cantidad de grados celcius: "
 	Leer celcius
 	
 	fahreinheit = ((9/5*celcius)+36)
 	
-	Escribir "Usted escribió: ", celcius, " grados celius, y en fahrenheit son: ", fahreinheit
+	Escribir "Usted escribiÃ³: ", celcius, " grados celius, y en fahrenheit son: ", fahreinheit
 	
 FinProceso
