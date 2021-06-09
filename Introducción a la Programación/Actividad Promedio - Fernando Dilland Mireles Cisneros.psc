@@ -1,5 +1,5 @@
 Proceso ActividadPromedio
-	// Actividad por: Fernando Dilland Mireles Cisneros (1837532) Grupo #14
+	// Actividad por: Fernando Dilland Mireles Cisneros
 	
 	Escribir "Ingresar Calificación #1:"
 	Leer calificacion1
