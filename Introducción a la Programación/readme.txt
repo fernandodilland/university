@@ -5,3 +5,4 @@ Profesor: Juan Gabriel López Solórzano.
 Semestre: 1.
 Fechas: 31/08/2020 al 15/01/2021.
 Software: PSeint.
+Perfil: FACPYA-UANL.
