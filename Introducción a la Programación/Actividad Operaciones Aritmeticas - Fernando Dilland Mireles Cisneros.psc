@@ -1,25 +1,25 @@
 Proceso actividadOperacionesAritmeticas
-	// Código hecho por: Fernando Dilland Mireles Cisneros (1837532), Grupo 14.
-	// Escribir un programa que realice las operaciones aritméticas
-	// (suma, resta, multiplicación y división). El usuario podrá indicar los números
-	// a utilizar y la operación que desea realizar. Es decir el programa
-	// sólo realizará una de las 4 operaciones, la que el usuario indique.
+	// CÃ³digo hecho por: Fernando Dilland Mireles Cisneros.
+	// Escribir un programa que realice las operaciones aritmÃ©ticas
+	// (suma, resta, multiplicaciÃ³n y divisiÃ³n). El usuario podrÃ¡ indicar los nÃºmeros
+	// a utilizar y la operaciÃ³n que desea realizar. Es decir el programa
+	// sÃ³lo realizarÃ¡ una de las 4 operaciones, la que el usuario indique.
 	
 	Escribir  "" 
 	Escribir "<< Bienvenido al programa de Operaciones Aritmeticas >>" 
 	Escribir  "" 
 	
-	Escribir "Escriba el número 1 usado en la operación: "
+	Escribir "Escriba el nÃºmero 1 usado en la operaciÃ³n: "
 	Leer numeroUno
 	
-	Escribir "Escriba el número 2 usado en la operación: "
+	Escribir "Escriba el nÃºmero 2 usado en la operaciÃ³n: "
 	Leer numeroDos
 	
-	Escribir "Seleccione el tipo de operación aritmética:"
+	Escribir "Seleccione el tipo de operaciÃ³n aritmÃ©tica:"
 	Escribir "1) Suma"
 	Escribir "2) Resta"
-	Escribir "3) Multiplicación"
-	Escribir "4) División"
+	Escribir "3) MultiplicaciÃ³n"
+	Escribir "4) DivisiÃ³n"
 	Leer operacionSeleccionada
 	
 	si operacionSeleccionada == "1" Entonces
@@ -33,12 +33,12 @@ Proceso actividadOperacionesAritmeticas
 			Escribir "El resultado es: ", resultado
 		SiNo
 			si operacionSeleccionada == "3" Entonces
-				Escribir "------------  Multiplicación  --------------"
+				Escribir "------------  MultiplicaciÃ³n  --------------"
 				resultado <- numeroUno*numeroDos
 				Escribir "El resultado es: ", resultado
 			SiNo
 				si operacionSeleccionada == "4" Entonces
-					Escribir "------------  División  --------------"
+					Escribir "------------  DivisiÃ³n  --------------"
 					resultado <- numeroUno/numeroDos
 					Escribir "El resultado es: ", resultado
 				FinSi
