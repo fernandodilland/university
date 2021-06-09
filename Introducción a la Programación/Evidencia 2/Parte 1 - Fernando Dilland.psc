@@ -6,14 +6,14 @@ Proceso Ejercicio1Evidencia2Veronica
 		Leer NombreDeclarado
 		Escribir "Escriba Edad:"
 		Leer EdadDeclarada
-		Escribir "Escriba País:"
+		Escribir "Escriba PaÃ­s:"
 		Leer PaisDeclarado
-		Escribir "Escriba Género F ó M"
+		Escribir "Escriba GÃ©nero F Ã³ M"
 		Leer GeneroDeclarado
 		
 		GuardaDato <- CalcularCantidad(NombreDeclarado,EdadDeclarada,PaisDeclarado,GeneroDeclarado)
 		
-FinProceso //aquí termina el proceso, no subproceso
+FinProceso //aquÃ­ termina el proceso, no subproceso
 
 Funcion CantFinal <- CalcularCantidad(NombreDeclarado, EdadDeclarada, PaisDeclarado, GeneroDeclarado) //funcion separada
 	
@@ -49,7 +49,7 @@ FinPara
 	
 	SumFinal <- AjustaNombre + PaisVariable2 + CalculaGeneroDeclarado + EdadDeclarada
 	
-	Escribir "El código de seguridad es:  ",  SumFinal
+	Escribir "El cÃ³digo de seguridad es:  ",  SumFinal
 	
 FinFuncion
 
