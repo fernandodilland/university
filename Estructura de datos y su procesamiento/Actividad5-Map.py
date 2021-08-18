@@ -28,8 +28,3 @@ for edad in edades_actuales:
     print("La edad es:", edad,"años")
     
 print("\n--- Ha finalizado el programa ---")
-
-
-
-
-
