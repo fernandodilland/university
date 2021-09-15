@@ -86,9 +86,3 @@ while True:
     if opcionElegida == 7:
         print("Gracias por usar el programa, buen día.")
         break
-    
-    
-    
-    """if opcionElegida == 7:
-        remove("Personas.csv")
-        print("Se ha borrado el CSV")"""
