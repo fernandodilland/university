@@ -392,15 +392,15 @@ pie(OFrpfamilias,
 # Kevin Caballero <<<<<<<<<<<<<<<<<<<<<<
 
 # Y por ultimo los municipos donde viven las familias
-municipioP <- c("Monterrey", "García",	"Escobedo",	"Escobedo",	'Apodaca',	'San Nicolás de los Garza',
-                'Monterrey',	'Monterrey',	'San Nicolás de los Garza',	'Apodaca',	'Monterrey',
-                'San Pedro Garza García',	'San Pedro Garza García',	'Santa Catarina',	'Monterrey',
+municipioP <- c("Monterrey", "GarcÃ­a",	"Escobedo",	"Escobedo",	'Apodaca',	'San NicolÃ¡s de los Garza',
+                'Monterrey',	'Monterrey',	'San NicolÃ¡s de los Garza',	'Apodaca',	'Monterrey',
+                'San Pedro Garza GarcÃ­a',	'San Pedro Garza GarcÃ­a',	'Santa Catarina',	'Monterrey',
                 'Escobedo',	'Monterrey',	'Apodaca',	'Monterrey', 'Escobedo',	'Santiago',	'Monterrey',
                 'Escobedo',	'Santa Catarina',	'Escobedo',	'Escobedo',	'Monterrey', 'Monterrey',	'Escobedo',
                 'Monterrey',	'Monterrey',	'Monterrey',	'Monterrey',	'Monterrey', 'Monterrey',	'Escobedo',
-                'San Nicolás de los Garza',	'Monterrey',	'Monterrey',	'Escobedo',	'Escobedo',	'Escobedo',
+                'San NicolÃ¡s de los Garza',	'Monterrey',	'Monterrey',	'Escobedo',	'Escobedo',	'Escobedo',
                 'Escobedo',	'Monterrey',	'Escobedo',	'Escobedo',	'Monterrey', 'Santa Catarina',	'Monterrey',
-                'Escobedo',	'San Nicolás de los Garza',	'Santiago',	'San Pedro Garza García',	'Apodaca',
+                'Escobedo',	'San NicolÃ¡s de los Garza',	'Santiago',	'San Pedro Garza GarcÃ­a',	'Apodaca',
                 'Escobedo',	'Monterrey',	'Apodaca')
 municipioP
 
