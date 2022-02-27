@@ -1,6 +1,5 @@
 # Importación de módulos
 import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 
 # Construcción de diccionario con datos de imagen proporcionada
