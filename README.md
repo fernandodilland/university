@@ -4,7 +4,7 @@
 
 ## Universidad Autónoma de Nuevo León, Facultad de Contaduría Pública y Administración.
 
-Student: Fernando Dilland Mireles Cisneros.
+Student: Fernando Dilland.
 
 ## License
 
